@@ -8,12 +8,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-**Equity Score** 
+**Equity Score**\ 
 
 Run the following command
 ```bash
 python equityscore.py
 ```
-**Vidualization**
+**Vidualization**\
 
 Run `plot.py` to vidualize data. 
