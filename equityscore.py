@@ -105,7 +105,7 @@ def main():
     temp = pd.DataFrame(temp, columns=['blockGroup', 'censusTract', 'group', 'index'])
 
     #%%
-    # modify census tract to 4 digit number to use as a key
+    # modify census tract to 4 digit number to use as a key to combine shapefile
     temp['keyid'] = temp.censusTract.astype(float) 
     for i in range(len(temp)):
         if temp.keyid[i] < 100:
