@@ -1,6 +1,5 @@
 # %% 
 # get block group level data of Durham County, NC to compute equity score
-# here: run it and see if it works
 import numpy as np
 import pandas as pd
 import censusdata
@@ -127,7 +126,7 @@ def main():
     df.drop(columns='index')
 
     print(df)
-    
+
     return df
 
 if __name__ == '__main__':
