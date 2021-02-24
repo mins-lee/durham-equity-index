@@ -2,8 +2,13 @@ acs:
   state: 'North Carolina'
   county: 'Durham County'
   year: 2018
+  FIPScountycode: '063'
 web_resource:
-  key: 7ede7714ddae76a7a24c76852330e250501103b9
+  key: <Census API Key>
+shpfile:
+  zipurl: 'https://www2.census.gov/geo/tiger/TIGER2018/BG/tl_2018_37_bg.zip'
+  localpath: 'tmp/'
+  tracturl: 'https://www2.census.gov/geo/maps/dc10map/tract/st37_nc/c37063_durham/DC10CT_C37063_CT2MS.txt'
   
  
 
