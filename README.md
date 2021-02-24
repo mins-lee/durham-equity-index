@@ -8,12 +8,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-**Equity Score**\ 
-
 Run the following command
 ```bash
-python equityscore.py
+python choropleth.py
 ```
-**Vidualization**\
-
-Run `plot.py` to vidualize data. 
